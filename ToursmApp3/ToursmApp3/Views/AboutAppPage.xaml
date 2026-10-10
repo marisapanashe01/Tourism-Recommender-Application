@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToursmApp3.Views.AboutAppPage"
+             Title="About this App"
+             BackgroundColor="#F0F8FF">
+    <!-- Light background color -->
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+
+            <!-- Title -->
+            <Label Text="About This App" 
+                   FontSize="28" 
+                   FontAttributes="Bold" 
+                   TextColor="#1E90FF"  
+                HorizontalOptions="Center" />
+
+                <!-- Developer's Image -->
+                <Frame CornerRadius="100" HasShadow="True" Padding="0" Margin="0,10">
+                    <Image Source="dev_image.jpg"  
+                        Aspect="AspectFill" 
+                        HeightRequest="200" 
+                        WidthRequest="200" />
+                </Frame>
+
+                <!-- Developer Bio -->
+            <Label Text="Hello! I'm Panashe Marisa, the creator of this application.(你好我是Panashe Marisa，这个应用程序的创建者。)" 
+                   FontSize="18" 
+                   TextColor="#4682B4"  
+                    HorizontalOptions="Center" 
+                    FontAttributes="Italic" />
+
+                    <Label Text="As a passionate developer, my goal is to provide you with an engaging and useful experience." 
+                   FontSize="14" 
+                           FontAttributes="Bold"
+                   TextColor="#444444"  
+                   HorizontalOptions="Center" />
+            
+            <Label Text="-Seamless Navigation: Easily find your way around new destinations. Whether you're exploring urban environments or rural landscapes, our app helps you reach your destination with confidence.
+-User-friendly Interface: Enjoy a clean and intuitive design that makes navigation effortless. With just a few taps, you can find what you need without any hassle, allowing you to focus on enjoying your trip.
+-Local Insights: Gain access to insider tips and local knowledge that help you experience destinations like a resident, uncovering hidden gems that typical tourists might miss.
+-Safety Features: Stay safe while traveling with emergency contact information and safety tips at your fingertips.
+-Event Calendars: Discover local festivals, concerts, and events happening during your visit. Join in on the fun and immerse yourself in the local culture….and more" 
+                    FontSize="12" 
+                    TextColor="#444444"  
+                   FontAttributes="Italic"
+                    HorizontalOptions="Center" />
+
+            <Label Text="Future Updates:" 
+                   FontSize="20" 
+                   FontAttributes="Bold" 
+                   TextColor="#1E90FF"  
+                            HorizontalOptions="Center" />
+
+            <Label Text="Stay tuned for exciting new features and improvements!I am committed to continuously improving this app. Expect new features and updates that will further enhance your travel experience, making it easier and more enjoyable to explore new places." 
+                   FontSize="12" 
+                   TextColor="#444444" 
+                   FontAttributes="Italic"
+                   HorizontalOptions="Center" />
+
+                            <!-- Contact Information -->
+                            <Label Text="Contact Me:" 
+                   FontSize="14" 
+                   FontAttributes="Bold" 
+                   TextColor="#1E90FF"  
+                                HorizontalOptions="Center" />
+
+                                <Label Text="Phone: +263 784 773 590/ +86 131 3845 7218" 
+                   FontSize="14" 
+                   TextColor="#444444" 
+                   FontAttributes="Italic"       
+                   HorizontalOptions="Center" />
+
+                                <Label Text="Email: marisapanashe01@gmail.com" 
+                   FontSize="14" 
+                   TextColor="#444444"
+                   FontAttributes="Italic"
+                   HorizontalOptions="Center" />
+
+                                <Label Text="LinkedIn: linkedin.com/in/panashe-marisa/ " 
+                    FontSize="14" 
+                    TextColor="#444444" 
+                    FontAttributes="Italic"
+                    HorizontalOptions="Center" />
+
+            <!-- Closing Note -->
+                                <Label Text="Thank you for using this app!" 
+                   FontSize="18" 
+                   FontAttributes="Italic" 
+                   TextColor="#FF4500"  
+                                HorizontalOptions="Center" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

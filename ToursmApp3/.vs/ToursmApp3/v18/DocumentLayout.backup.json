@@ -1,0 +1,425 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\services\\mockdatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\services\\mockdatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\viewmodels\\activitiesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\viewmodels\\activitiesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\viewmodels\\artandmuseumviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\viewmodels\\artandmuseumviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\database\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\views\\artandmuseumpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\views\\artandmuseumpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\services\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\viewmodels\\destinationsexplorationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\viewmodels\\destinationsexplorationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\appshell.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\appshell.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\views\\destinationsexplorationpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\views\\destinationsexplorationpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\viewmodels\\bookingpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\viewmodels\\bookingpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\viewmodels\\itemdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\viewmodels\\itemdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\models\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\models\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\models\\artgallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\models\\artgallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\models\\maps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\models\\maps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\viewmodels\\mapsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\viewmodels\\mapsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\models\\monument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\models\\monument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\models\\museum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\models\\museum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\models\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\views\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\views\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|c:\\users\\admin\\source\\repos\\toursmapp3\\toursmapp3\\views\\emergencycontactspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{803C929E-6D61-4535-9BAD-A23E8CC3E95D}|ToursmApp3\\ToursmApp3.csproj|solutionrelative:toursmapp3\\views\\emergencycontactspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MockDataStore.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Services\\MockDataStore.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\Services\\MockDataStore.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Services\\MockDataStore.cs",
+              "RelativeToolTip": "ToursmApp3\\Services\\MockDataStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:33.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\App.xaml",
+              "RelativeDocumentMoniker": "ToursmApp3\\App.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\App.xaml",
+              "RelativeToolTip": "ToursmApp3\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-21T10:53:34.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Database\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\Database\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Database\\DatabaseHelper.cs",
+              "RelativeToolTip": "ToursmApp3\\Database\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArtAndMuseumViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\ViewModels\\ArtAndMuseumViewModel.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\ViewModels\\ArtAndMuseumViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\ViewModels\\ArtAndMuseumViewModel.cs",
+              "RelativeToolTip": "ToursmApp3\\ViewModels\\ArtAndMuseumViewModel.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwBQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArtAndMuseumPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Views\\ArtAndMuseumPage.xaml",
+              "RelativeDocumentMoniker": "ToursmApp3\\Views\\ArtAndMuseumPage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Views\\ArtAndMuseumPage.xaml",
+              "RelativeToolTip": "ToursmApp3\\Views\\ArtAndMuseumPage.xaml",
+              "ViewState": "AgIAAD8AAAAAAAAAAIBJwF8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-21T10:53:34.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomePageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\ViewModels\\HomePageViewModel.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\ViewModels\\HomePageViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\ViewModels\\HomePageViewModel.cs",
+              "RelativeToolTip": "ToursmApp3\\ViewModels\\HomePageViewModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ActivitiesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\ViewModels\\ActivitiesViewModel.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\ViewModels\\ActivitiesViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\ViewModels\\ActivitiesViewModel.cs",
+              "RelativeToolTip": "ToursmApp3\\ViewModels\\ActivitiesViewModel.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\AppShell.xaml",
+              "RelativeDocumentMoniker": "ToursmApp3\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\AppShell.xaml",
+              "RelativeToolTip": "ToursmApp3\\AppShell.xaml",
+              "ViewState": "AgIAAEsAAAAAAAAAAIBJwGwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-21T10:53:34.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DestinationsExplorationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\ViewModels\\DestinationsExplorationViewModel.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\ViewModels\\DestinationsExplorationViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\ViewModels\\DestinationsExplorationViewModel.cs",
+              "RelativeToolTip": "ToursmApp3\\ViewModels\\DestinationsExplorationViewModel.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Services\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\Services\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Services\\UserRepository.cs",
+              "RelativeToolTip": "ToursmApp3\\Services\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DestinationsExplorationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Views\\DestinationsExplorationPage.xaml",
+              "RelativeDocumentMoniker": "ToursmApp3\\Views\\DestinationsExplorationPage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Views\\DestinationsExplorationPage.xaml",
+              "RelativeToolTip": "ToursmApp3\\Views\\DestinationsExplorationPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-21T10:53:34.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookingPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\ViewModels\\BookingPageViewModel.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\ViewModels\\BookingPageViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\ViewModels\\BookingPageViewModel.cs",
+              "RelativeToolTip": "ToursmApp3\\ViewModels\\BookingPageViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\User.cs",
+              "RelativeToolTip": "ToursmApp3\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Activity.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\Activity.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\Models\\Activity.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\Activity.cs",
+              "RelativeToolTip": "ToursmApp3\\Models\\Activity.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ArtGallery.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\ArtGallery.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\Models\\ArtGallery.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\ArtGallery.cs",
+              "RelativeToolTip": "ToursmApp3\\Models\\ArtGallery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ItemDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\ViewModels\\ItemDetailViewModel.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\ViewModels\\ItemDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\ViewModels\\ItemDetailViewModel.cs",
+              "RelativeToolTip": "ToursmApp3\\ViewModels\\ItemDetailViewModel.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\Item.cs",
+              "RelativeToolTip": "ToursmApp3\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MapsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\ViewModels\\MapsViewModel.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\ViewModels\\MapsViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\ViewModels\\MapsViewModel.cs",
+              "RelativeToolTip": "ToursmApp3\\ViewModels\\MapsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Maps.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\Maps.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\Models\\Maps.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\Maps.cs",
+              "RelativeToolTip": "ToursmApp3\\Models\\Maps.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Monument.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\Monument.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\Models\\Monument.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\Monument.cs",
+              "RelativeToolTip": "ToursmApp3\\Models\\Monument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Museum.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\Museum.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\Models\\Museum.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\Museum.cs",
+              "RelativeToolTip": "ToursmApp3\\Models\\Museum.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\Restaurant.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\Models\\Restaurant.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Models\\Restaurant.cs",
+              "RelativeToolTip": "ToursmApp3\\Models\\Restaurant.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BookingPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Views\\BookingPage.xaml.cs",
+              "RelativeDocumentMoniker": "ToursmApp3\\Views\\BookingPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Views\\BookingPage.xaml.cs",
+              "RelativeToolTip": "ToursmApp3\\Views\\BookingPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:53:34.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmergencyContactsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Views\\EmergencyContactsPage.xaml",
+              "RelativeDocumentMoniker": "ToursmApp3\\Views\\EmergencyContactsPage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\ToursmApp3\\ToursmApp3\\Views\\EmergencyContactsPage.xaml",
+              "RelativeToolTip": "ToursmApp3\\Views\\EmergencyContactsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-21T10:53:34.093Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

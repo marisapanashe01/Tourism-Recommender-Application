@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ToursmApp3.ViewModels"
+             x:Class="ToursmApp3.Views.BookingPage"
+             Title="Booking"
+             BackgroundColor="White"
+             x:DataType="local:BookingPageViewModel">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+
+            <!-- Transport Section -->
+            <Frame CornerRadius="20" HasShadow="True" Padding="0" Margin="0,0,0,20">
+                <Image Source="your_transport_image_url_here" Aspect="AspectFill" />
+            </Frame>
+
+            <Label Text="🚗 Transport Options 🚗" FontSize="24" FontAttributes="Bold" TextColor="DarkGoldenrod" HorizontalOptions="Center" Margin="0,10" />
+            <Label Text="Explore Zimbabwe with ease!" FontSize="18" FontAttributes="Italic" TextColor="RoyalBlue" HorizontalOptions="Center" />
+            <Label Text="Reliable transport options are available for tourists, ensuring a smooth journey." 
+                   FontSize="16" Margin="0,5" TextColor="Black" HorizontalOptions="Center" />
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,10">
+                <Button Text="Download Rida" Command="{Binding OpenRidaApp}" WidthRequest="150" CornerRadius="25" BackgroundColor="LightBlue" TextColor="White" />
+                <Button Text="Download InDrive" Command="{Binding OpenInDriveApp}" WidthRequest="150" CornerRadius="25" BackgroundColor="LightCoral" TextColor="White" />
+            </StackLayout>
+
+            <Label Text="Rida: A convenient app for ridesharing." FontSize="14" TextColor="Gray" HorizontalOptions="Center" />
+            <Label Text="InDrive: Affordable rides with flexible pricing." FontSize="14" TextColor="Gray" HorizontalOptions="Center" />
+
+            <!-- Accommodation Section -->
+            <Label Text="🏡 Accommodation Options" FontSize="24" FontAttributes="Bold" TextColor="DarkGoldenrod" HorizontalOptions="Center" Margin="0,10" />
+            <Label Text="Find the perfect place to stay in Zimbabwe!" FontSize="18" FontAttributes="Italic" TextColor="RoyalBlue" HorizontalOptions="Center" />
+            <Label Text="Choose from a variety of accommodations to suit your needs." 
+                   FontSize="16" Margin="0,5" TextColor="Black" HorizontalOptions="Center" />
+
+            <!-- Accommodation Images with Descriptions -->
+            <StackLayout Orientation="Vertical" Margin="0,10" HorizontalOptions="Center">
+                <Frame CornerRadius="20" HasShadow="True" Margin="10">
+                    <Image Source="luxury_booking.jpg" Aspect="AspectFill" HeightRequest="200" />
+                </Frame>
+                <Label Text="Luxury Hotel" FontSize="18" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" />
+                <Label Text="A luxurious stay with top-notch amenities in the heart of Victoria Falls." FontAttributes="Italic" FontSize="14" TextColor="Gray" HorizontalOptions="Center" />
+                <Label Text="⭐⭐⭐⭐⭐" FontSize="14" TextColor="Gold" HorizontalOptions="Center" Margin="0,5" />
+
+                <Frame CornerRadius="20" HasShadow="True" Margin="10">
+                    <Image Source="cozy_booking.jpg" Aspect="AspectFill" HeightRequest="200" />
+                </Frame>
+                <Label Text="Cozy Lodge" FontSize="18" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" />
+                <Label Text="A warm and inviting lodge perfect for relaxation: Bumi Hills Lodge, Kariba" FontAttributes="Italic" FontSize="14" TextColor="Gray" HorizontalOptions="Center" />
+                <Label Text="⭐⭐⭐⭐" FontSize="14" TextColor="Gold" HorizontalOptions="Center" Margin="0,5" />
+            </StackLayout>
+
+            <Label Text="See what you like? Explore more below!" FontSize="16" FontAttributes="Italic" TextColor="RoyalBlue" HorizontalOptions="Center" Margin="20,10" />
+
+            <!-- Additional Booking Options -->
+            <StackLayout Orientation="Vertical" Margin="0,10" HorizontalOptions="Center">
+                <Button Text="Booking.com" Command="{Binding OpenBookingDotCom}" WidthRequest="200" CornerRadius="25" BackgroundColor="LightBlue" TextColor="White" />
+                <Label Text="A wide range of hotels and lodgings." FontSize="14" TextColor="Gray" HorizontalOptions="Center" />
+
+                <Button Text="TripAdvisor" Command="{Binding OpenTripAdvisor}" WidthRequest="200" Margin="0,5" CornerRadius="25" BackgroundColor="LightCoral" TextColor="White" />
+                <Label Text="Reviews and recommendations from travelers." FontSize="14" TextColor="Gray" HorizontalOptions="Center" />
+
+                <Button Text="Airbnb" Command="{Binding OpenAirbnb}" WidthRequest="200" CornerRadius="25" BackgroundColor="LightBlue" TextColor="White" />
+                <Label Text="Unique stays hosted by locals." FontSize="14" TextColor="Gray" HorizontalOptions="Center" />
+            </StackLayout>
+
+            <!-- ZIMRO Travel and Tours Section -->
+            <Frame CornerRadius="20" HasShadow="True" Padding="0" Margin="0,20,0,20">
+                <Image Source="your_zimgro_image_url_here" Aspect="AspectFill" />
+            </Frame>
+
+            <Label Text="🌍ZIMGRO Travel AND Tours" FontSize="24" FontAttributes="Bold" TextColor="DarkGoldenrod" HorizontalOptions="Center" Margin="0,10" />
+            <Label Text="Helping tourists navigate Zimbabwe with tailored transportation and accommodation services." 
+                   FontSize="16" TextColor="Black" HorizontalOptions="Center" />
+            <Label Text="Contact: +263 123 456 789" FontSize="14" TextColor="Gray" HorizontalOptions="Center" />
+            <Label Text="Address: 123 Tourism Rd, Harare, Zimbabwe" FontSize="14" TextColor="Gray" HorizontalOptions="Center" />
+            <Label Text="ZIMRO Travel and Tours arranges everything you need for a memorable trip!" 
+                   FontSize="14" TextColor="Black" HorizontalOptions="Center" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

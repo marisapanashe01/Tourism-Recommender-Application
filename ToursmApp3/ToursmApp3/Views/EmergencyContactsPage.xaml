@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToursmApp3.Views.EmergencyContactsPage"
+             Title="Emergency Contacts"
+             BackgroundColor="#F8F8FF">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+
+            <!-- Title -->
+            <Label Text="Emergency Services" 
+                   FontSize="32" 
+                   FontAttributes="Bold" 
+                   TextColor="#FF4500" 
+                   HorizontalOptions="Center" />
+
+            <!-- Emergency Numbers Section -->
+            <Frame BackgroundColor="#FFFFFF" 
+                   CornerRadius="10"
+                   Padding="10" 
+                   HasShadow="True">
+                <StackLayout>
+                    <Label Text="Emergency Numbers:" 
+                           FontSize="24" 
+                           FontAttributes="Bold" 
+                           TextColor="#1E90FF"  
+                           HorizontalOptions="Start" />
+
+                    <Label Text="• Police: 999" FontSize="14" TextColor="#444444" />
+                    <Label Text="• Ambulance: 998" FontSize="14" TextColor="#444444" />
+                    <Label Text="• Fire Department: 997" FontSize="14" TextColor="#444444" />
+                    <Label Text="• Tourist Information: +263 123 456 789" FontSize="14" TextColor="#444444" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Nearby Hospitals Section -->
+            <Frame BackgroundColor="#FFFFFF" 
+                   CornerRadius="10" 
+                   Padding="10" 
+                   HasShadow="True">
+                <StackLayout>
+                    <Label Text="Nearby Hospitals:" 
+                           FontSize="24" 
+                           FontAttributes="Bold" 
+                           TextColor="#1E90FF" 
+                           HorizontalOptions="Start" />
+
+                    <Label Text="1. Harare Central Hospital" FontSize="16" FontAttributes="Bold" TextColor="#333333" />
+                    <Label Text="   Address: 123 Main St, Harare" FontSize="12" TextColor="#444444" />
+                    <Label Text="   Phone: +263 4 123 456" FontSize="12" TextColor="#444444" />
+
+                    <Label Text="2. Parirenyatwa Hospital" FontSize="16" FontAttributes="Bold" TextColor="#333333" />
+                    <Label Text="   Address: 456 Hospital Rd, Harare" FontSize="12" TextColor="#444444" />
+                    <Label Text="   Phone: +263 4 654 321" FontSize="12" TextColor="#444444" />
+
+                    <Label Text="3. Bulawayo Hospital" FontSize="16" FontAttributes="Bold" TextColor="#333333" />
+                    <Label Text="   Address: 789 Bulawayo Rd, Bulawayo" FontSize="12" TextColor="#444444" />
+                    <Label Text="   Phone: +263 9 123 456" FontSize="12" TextColor="#444444" />
+
+                    <Label Text="4. Mutare Provincial Hospital" FontSize="16" FontAttributes="Bold" TextColor="#333333" />
+                    <Label Text="   Address: 321 Mutare St, Mutare" FontSize="12" TextColor="#444444" />
+                    <Label Text="   Phone: +263 20 123 456" FontSize="12" TextColor="#444444" />
+
+                    <Label Text="5. Victoria Falls Hospital" FontSize="16" FontAttributes="Bold" TextColor="#333333" />
+                    <Label Text="   Address: Victoria Falls, Zimbabwe" FontSize="12" TextColor="#444444" />
+                    <Label Text="   Phone: +263 13 440 58" FontSize="12" TextColor="#444444" />
+
+                    <Label Text="6. Kariba Hospital" FontSize="16" FontAttributes="Bold" TextColor="#333333" />
+                    <Label Text="   Address: Kariba, Zimbabwe" FontSize="12" TextColor="#444444" />
+                    <Label Text="   Phone: +263 61 213 150" FontSize="12" TextColor="#444444" />
+
+                    <Label Text="7. Hwange Colliery Hospital" FontSize="16" FontAttributes="Bold" TextColor="#333333" />
+                    <Label Text="   Address: Hwange, Zimbabwe" FontSize="12" TextColor="#444444" />
+                    <Label Text="   Phone: +263 13 202 500" FontSize="12" TextColor="#444444" />
+
+                    <Label Text="8. Chinhoyi Hospital" FontSize="16" FontAttributes="Bold" TextColor="#333333" />
+                    <Label Text="   Address: Chinhoyi, Zimbabwe" FontSize="12" TextColor="#444444" />
+                    <Label Text="   Phone: +263 66 210 711" FontSize="12" TextColor="#444444" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Embassies Section -->
+            <Frame BackgroundColor="#FFFFFF" 
+                   CornerRadius="10" 
+                   Padding="10" 
+                   HasShadow="True">
+                <StackLayout>
+                    <Label Text="Embassy Contacts:" 
+                           FontSize="24" 
+                           FontAttributes="Bold" 
+                           TextColor="#1E90FF" 
+                           HorizontalOptions="Start" />
+
+                    <Label Text="• United States Embassy: +263 4 250 593" FontSize="14" TextColor="#444444" />
+                    <Label Text="• British Embassy: +263 4 704 400" FontSize="14" TextColor="#444444" />
+                    <Label Text="• Canadian Embassy: +263 4 250 000" FontSize="14" TextColor="#444444" />
+                    <Label Text="• Australian Embassy: +263 4 700 200" FontSize="14" TextColor="#444444" />
+                    <Label Text="• South African Embassy: +263 4 774 100" FontSize="14" TextColor="#444444" />
+                    <Label Text="• Namibian Embassy: +263 4 772 200" FontSize="14" TextColor="#444444" />
+                    <Label Text="• Zambian Embassy: +263 4 703 201" FontSize="14" TextColor="#444444" />
+                    <Label Text="• Botswana Embassy: +263 4 700 300" FontSize="14" TextColor="#444444" />
+                    <Label Text="• Mozambican Embassy: +263 4 703 500" FontSize="14" TextColor="#444444" />
+                    <Label Text="• Lesotho Embassy: +263 4 775 800" FontSize="14" TextColor="#444444" />
+                    <Label Text="• Swaziland Embassy: +263 4 775 900" FontSize="14" TextColor="#444444" />
+                </StackLayout>
+            </Frame>
+
+            <Label Text="Stay safe and know where to find help!" 
+                   FontSize="16"
+                   FontAttributes="Italic"
+                   TextColor="DarkGoldenrod" 
+                   HorizontalOptions="Center" 
+                   Margin="0,10" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

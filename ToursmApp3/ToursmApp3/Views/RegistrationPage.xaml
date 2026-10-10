@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToursmApp3.Views.RegistrationPage"
+             Shell.FlyoutBehavior="Disabled"
+             Title="Register">
+
+    <!-- Background Image -->
+    <AbsoluteLayout>
+        <Image Source="reg_backgrnd1.jpg" 
+               Aspect="AspectFill" 
+               Opacity="0.5" 
+               HorizontalOptions="FillAndExpand" 
+               VerticalOptions="FillAndExpand" 
+               AbsoluteLayout.LayoutFlags="All" 
+               AbsoluteLayout.LayoutBounds="0, 0, 1, 1" />
+
+        <!-- Overlay for Content -->
+        <StackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+            <Frame BackgroundColor="Transparent" HasShadow="True" Margin="0,20">
+                <Label Text="Create an Account" 
+                       FontSize="48" 
+                       FontAttributes="Bold" 
+                       TextColor="Black" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="Start" />
+            </Frame>
+
+            <Label Text="Username:" TextColor="Black" FontAttributes="Bold" FontSize="16"/>
+            <Entry x:Name="usernameEntry" Placeholder="Username" FontAttributes="Italic" />
+
+            <Label Text="Password:" TextColor="Black" FontAttributes="Bold" FontSize="16"/>
+            <Entry x:Name="passwordEntry" IsPassword="True" Placeholder="Password" FontAttributes="Italic" />
+
+            <Frame BorderColor="Black" BackgroundColor="Transparent" Padding="0" Margin="0,10" CornerRadius="25">
+                <Button Text="Register" 
+                    Clicked="OnRegisterButtonClicked" 
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    Margin="0,10,0,5"
+                    BackgroundColor="Transparent"
+                    TextColor="Black"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    CornerRadius="20"
+                    Padding="10" />
+            </Frame>
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>

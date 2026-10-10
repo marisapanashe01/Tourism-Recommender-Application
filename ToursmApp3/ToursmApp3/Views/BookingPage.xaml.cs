@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ToursmApp3.ViewModels;
+
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace ToursmApp3.Views
+{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class BookingPage : ContentPage
+    {
+        public BookingPage()
+        {
+            InitializeComponent();
+            BindingContext = new BookingPageViewModel();
+        }
+    }
+}

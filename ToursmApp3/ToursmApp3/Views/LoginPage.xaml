@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ToursmApp3.Views.LoginPage"
+             Shell.FlyoutBehavior="Disabled"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#F0F8FF">
+    <!-- Light background for contrast -->
+
+    <ContentPage.Content>
+        <Grid>
+            <!-- Background Image -->
+            <Image Source="run_sunset.jpg" 
+                   Aspect="AspectFill" 
+                   Opacity="0.5" 
+                   HorizontalOptions="FillAndExpand" 
+                   VerticalOptions="FillAndExpand" />
+
+            <!-- Overlay for Content -->
+            <StackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+
+                <!-- Title with 3D Effect -->
+                <Frame BackgroundColor="Transparent" HasShadow="True" Margin="0,20">
+                    <Label Text="Away In Zim" 
+                           FontSize="48" 
+                           FontAttributes="Bold" 
+                           TextColor="Black" 
+                           HorizontalOptions="Center" 
+                           VerticalOptions="Start" />
+                </Frame>
+
+                <!-- Username Entry -->
+                <Label Text="Username:" TextColor="Black" FontSize="20"/>
+                <Entry x:Name="usernameEntry" Placeholder="Username" FontAttributes="Italic"  BackgroundColor="Transparent" Margin="0,5,0,20" />
+
+                <!-- Password Entry -->
+                <Label Text="Password:" TextColor="Black" FontSize="20"/>
+                <Entry x:Name="passwordEntry" IsPassword="True" Placeholder="Password" FontAttributes="Italic" BackgroundColor="Transparent" Margin="0,5,0,20" />
+
+                <!-- Login Button -->
+                <Frame BorderColor="Black" BackgroundColor="Transparent" Padding="0" Margin="0,10" CornerRadius="25">
+                    <Button Text="Login" 
+                            Clicked="OnLoginButtonClicked" 
+                            BackgroundColor="Transparent" 
+                            TextColor="Black"
+                            FontAttributes="Bold"
+                            CornerRadius="20" 
+                            HeightRequest="50" />
+                </Frame>
+
+                <!-- Register Label -->
+                <Label Text="Don't have an account? Register" 
+                       TextColor="Black" 
+                       HorizontalOptions="Center" 
+                       FontSize="16">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnRegisterTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

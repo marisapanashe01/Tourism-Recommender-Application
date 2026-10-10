@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ToursmApp3.Services"
+             x:Class="ToursmApp3.Views.HomePage"
+             Title="Home"
+             BackgroundColor="FloralWhite">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="ToolbarItem_Clicked" Text="Logout" />
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <StackLayout Padding="10">
+            
+            <!-- Application Name -->
+            <Label Text="Away In Zim"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   TextColor="DarkGoldenrod"
+                   HorizontalOptions="Center"
+                   Margin="0,10,0,20" />
+
+            <!-- Welcoming Note -->
+            <Label Text="Welcome to Away In Zim!"
+                   FontSize="24"
+                   FontAttributes="Italic"
+                   TextColor="DarkSlateGray"
+                   HorizontalOptions="Center"
+                   Margin="0,10,0,5" />
+
+            <!-- Tourism Context -->
+            <Label Text="Explore the beauty of Zimbabwe, from the majestic Victoria Falls to the vast savannahs of Hwange National Park. Discover rich cultures, vibrant cities, and unforgettable adventures!"
+                   FontSize="14"
+                   FontAttributes="Italic"
+                   TextColor="Gray"
+                   HorizontalOptions="Center"
+                   Margin="10,0,10,20"
+                   LineBreakMode="WordWrap" />
+            <!-- Swipe Notification -->
+            <Label Text="Swipe Left to View More"
+          FontSize="12"
+          FontAttributes="Italic"
+          TextColor="DarkSlateGray"
+          HorizontalOptions="Center"
+          VerticalOptions="Center"
+          Margin="0,10,10,20" />
+
+            <!-- Featured Destinations Section -->
+            <Label Text="Featured Destinations"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   Margin="0,10,0,10" />
+
+            <CarouselView ItemsSource="{Binding Destinations}">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="WhiteSmoke"
+                               CornerRadius="15"
+                               HasShadow="True"
+                               Padding="10">
+                            <StackLayout>
+                                <Frame CornerRadius="15" HasShadow="True" Padding="0">
+                                    <Image Source="{Binding ImageSource}"
+                                           Aspect="AspectFill"
+                                           HeightRequest="400" />
+                                </Frame>
+                                <Label Text="{Binding Name}"
+                                       FontSize="18"
+                                       FontAttributes="Bold"
+                                       TextColor="Black"
+                                       Margin="0,10,0,10" />
+                                <Label Text="{Binding Description}"
+                                       FontSize="14"
+                                       TextColor="Gray" />
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+
+            <!-- Swipe Notification -->
+            <Label Text="Swipe Left to View More"
+                   FontSize="12"
+                   FontAttributes="Italic"
+                   TextColor="DarkSlateGray"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Margin="0,10,10,20" />
+
+            <!-- Popular Activities Section -->
+            <Label Text="Popular Activities"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   Margin="0,20,0,10" />
+
+            <CarouselView ItemsSource="{Binding Activities}">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="WhiteSmoke"
+                               CornerRadius="15"
+                               HasShadow="True"
+                               Padding="10">
+                            <StackLayout>
+                                <Frame CornerRadius="15" HasShadow="True" Padding="0">
+                                    <Image Source="{Binding ImageSource}"
+                                           Aspect="AspectFill"
+                                           HeightRequest="400" />
+                                </Frame>
+                                <Label Text="{Binding Name}"
+                                       FontSize="18"
+                                       FontAttributes="Bold"
+                                       TextColor="Black"
+                                       Margin="0,5,0,0" />
+                                <Label Text="{Binding Description}"
+                                       FontSize="14"
+                                       TextColor="Gray" />
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
